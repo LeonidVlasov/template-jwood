@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+	.header__menu,
+	.scrollcontainer__text,
+	.arrow--grey,
+	.portfolio__container img:nth-child(2),
+	.portfolio__container img:nth-child(6),
+	.portfolio__container img:nth-child(8) {
+		display: none;
+	}
+
+	.portfolio__container img {
+	width: 50%;
+	}
+
+	section {
+		padding: 5rem 2rem;
+	}
+
+	h1 {
+		font-size: 2.1rem;
+		margin: 3rem 0;
+	}
+
+	/* footer */
+
+	.footer__contacts {
+		padding: 3rem;
+	}
+
+	.contacts__headers {
+		font-size: 2rem;
+		padding: 3rem 0;
+	}
+
+	.contacts__links {
+		font-size: 2.5rem;
+		letter-spacing: 0.3rem;
+	}
+}

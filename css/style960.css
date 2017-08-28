@@ -1,0 +1,27 @@
+@media screen and (max-width: 960px) {
+
+	.about-me__details {
+		flex-direction: column;
+	}
+
+	.details__foto,
+	.details__text {
+		width: 100%;
+	}
+
+	.details__text {
+		align-items: center;
+	}
+
+	.text__sign {
+		align-self: flex-end;
+	}
+
+	.portfolio__container img {
+	width: 33.3%;
+	}
+
+	.portfolio__container img:last-child {
+	display: none;
+	}
+}
