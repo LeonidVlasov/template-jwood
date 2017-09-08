@@ -1,4 +1,4 @@
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 420px) {
 
 	/* header */
 	h1 {
@@ -6,7 +6,7 @@
 		margin: 3rem 0;
 	}
 
-	.logocontainer__logo {
+	.logobox__logo {
 	height: 20vh;
 }
 
@@ -55,17 +55,13 @@
 
 	/* footer */
 
-	.footer__contacts {
-		padding: 5rem;
-	}
-
 	.contacts__headers {
-		font-size: 0.5rem;
+		font-size: 1.5rem;
 		padding: 3rem 0;
 	}
 
 	.contacts__links {
-		font-size: 0.8rem;
+		font-size: 1rem;
 		letter-spacing: 0;
 	}
 
