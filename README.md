@@ -1,1 +1,1 @@
-[jwood](https://leonidvlasov.github.io/template-jwood/index.html)
+[jwood](https://leonidvlasov.github.io/template-jwood/)
