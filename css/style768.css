@@ -12,24 +12,35 @@
 	}
 
 	.header__menu {
-		display: none;
+		text-align: center;
+		margin: 0 auto;
+		z-index: -1;
+		visibility: hidden;
+		opacity: 0;
+		transform: translateY(-100%);
+		-webkit-transition: all 0.7s;
+		-moz-transition: all 0.7s;
+		transition: all 0.7s;
 	}
 
 	.logobox--disabled {
-		display: none;
+		visibility: hidden;
+		opacity: 0;
 	}
 
 	.header__menu--active {
 		height: 100vh;
-		width: 100vw;
-		position: absolute;
+		width: 100%;
+		position: fixed;
 		border-bottom: none;
 		display: flex;
 		justify-content: center;
 		text-align: center;
 		background: linear-gradient(to bottom, rgba(143, 150, 156, 0.7), rgba(188, 191, 198, 0.7));
 		z-index: 2;
+		visibility: visible;
 		opacity: 1;
+		transform: translateY(0%);
 	}
 
 	.menu__list {
