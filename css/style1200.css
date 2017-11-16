@@ -50,23 +50,31 @@ footer{
 /* Hamburger */
 
 .toggle {
-	border-radius: 100%;
-	padding: 0.3rem;
 	cursor: pointer;
 	position: fixed;
 	top: 5%;
 	right: 5%;
 	z-index: 5;
 	transform: translate(-5%, -5%);
-	display: none;
+	display: none; 
 }
 
 .toggle__item {
-	display: block;
+	/* display: block;
 	height: 0.2rem;
 	width: 2rem;
 	background-color: rgb(73, 73, 73);
-	margin: 0.3rem;
+	margin: 0.3rem; */
+	display: block;
+	height: 4px;
+	width: 25px;
+	border-radius: 2px;
+	background-color: rgb(73, 73, 73);
+	position: relative;
+	margin-bottom: 5px;
+	transition: transform 1s linear;
+	-webkit-transform-origin: 0;
+	transform-origin: 0 2;
 }
 
 
